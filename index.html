@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Neon Sign</title>
+  <style>
+    body { background: #1e1e2f; height: 100vh; display: flex; justify-content: center; align-items: center; margin: 0; }
+    .neon { font-size: 4em; font-weight: bold; color: #f368e0; text-shadow: 0 0 10px #f368e0, 0 0 20px #f368e0, 0 0 40px #f368e0; animation: flicker 3s infinite; }
+    @keyframes flicker { 0%,100% { opacity: 1; } 50% { opacity: 0.8; } }
+  </style>
+</head>
+<body>
+  <div class="neon">NEON</div>
+</body>
+</html>
